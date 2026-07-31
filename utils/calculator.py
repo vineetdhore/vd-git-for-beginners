@@ -16,3 +16,7 @@ def divide_nums(a, b):
         raise ValueError("Cannot divide by zero.")
     return a / b
 
+def power_nums(a, b):
+    """Returns a raised to the power of b."""
+    return a ** b
+
